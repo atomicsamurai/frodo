@@ -7,7 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.8.0] - 2022-07-11
+## [0.8.0] - 2022-07-13
+
+### Added
+
+-   \#320: Frodo now identifies itself through the User-Agent header `<name>/<version>` (e.g. frodo/0.7.1-1)
+
+### Fixes
+
+-   \#319: frodo admin create-oauth2-client-with-admin-privileges --llt properly handles name collisions
 
 ## [0.7.1-1] - 2022-07-11
 
@@ -179,9 +187,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 -   Fixed problem with adding connection profiles
 -   Miscellaneous bug fixes
 
-[Unreleased]: https://github.com/atomicsamurai/frodo/compare/v0.8.0...HEAD
+[Unreleased]: https://github.com/rockcarver/frodo/compare/v0.8.0...HEAD
 
-[0.8.0]: https://github.com/atomicsamurai/frodo/compare/v0.7.1-1...v0.8.0
+[0.8.0]: https://github.com/rockcarver/frodo/compare/v0.7.1-1...v0.8.0
 
 [0.7.1-1]: https://github.com/rockcarver/frodo/compare/v0.7.1-0...v0.7.1-1
 
